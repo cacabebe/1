@@ -1,0 +1,26 @@
+h2 {
+  float: left;
+  clear: left;
+  padding: 80px 20px;
+  background: gray;
+  margin: 1px;
+}
+
+div,p {
+  float: left;
+}
+
+.a {
+  clear: left;
+}
+
+.b {
+  margin-left: 2em;
+}
+
+h1 {
+  color: white;
+  background: black;
+  margin: 1px;
+  padding: 20px;
+}

@@ -1,0 +1,24 @@
+.f p {
+  float: left;
+}
+
+h2 {
+  clear: both;
+}
+
+.b{
+  margin-left: 2em;
+}
+
+aside {
+  float: left;
+  color: white;
+  background: blue;
+  height: 100%;
+  padding: 5%;
+}
+
+main {
+  float: left;
+  margin-left: 1.5em;
+}
