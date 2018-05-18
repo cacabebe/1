@@ -1,0 +1,29 @@
+.a {
+  background: blue;
+}
+
+.b {
+  background: red;
+}
+
+.c {
+  background: yellow;
+}
+
+
+.a {
+  height: 100%;
+  width: 300px;
+  float: left;
+}
+
+.c {
+  height: 100%;
+  margin: 0 300px;
+}
+
+.b {
+  height: 100%;
+  width: 300px;
+  float: right;
+}

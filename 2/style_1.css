@@ -1,0 +1,121 @@
+/*float-3/7*
+.a {
+  float: left;
+  width: 30%;
+  background: blue;
+  height: 100%;
+}
+
+.b {
+  float: right;
+  width: 70%;
+  background: red;
+  height: 100%;
+}
+*position-3/7*
+body {
+  position: relative;
+}
+
+.a {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  background: blue;
+  height: 100%;
+}
+
+.b {
+  position: absolute;
+  right: 0; 
+  width: 70%;
+  background: red;
+  height: 100%;
+}
+*flex-3/7*
+body {
+  display: flex;
+}
+
+.a {
+  flex: 3;
+  background: blue;
+}
+
+.b {
+  flex: 7;
+  background: red;
+}
+*float-左固定 右自适应*
+.a {
+  float: left;
+  width: 300px;
+  height: 100%;
+  background: blue;
+}
+
+.b {
+  height: 100%;
+  background:red;
+  margin-left: 300px;
+}
+*position-左固定 右自适应*
+body {
+  position: relative;
+}
+
+.a {
+  position: absolute;
+  left: 0;
+  width: 300px;
+  background: blue;
+  height: 100%;
+}
+
+.b {
+  margin-left: 300px;
+  background: red;
+  height: 100%;
+}
+*flex-左固定 右自适应*
+body {
+  display: flex;
+  height: 100%;
+}
+
+.a {
+  flex: 300px 0;
+  background: blue;
+}
+
+.b {
+  flex: 1;
+  background: red;  
+}
+*flex-右固定 左自适应*
+body {
+  display: flex;
+  height: 100%;
+}
+
+.a {
+  flex: 1;
+  background: blue;
+}
+
+.b {
+  flex: 300px 0;
+  background: red;  
+}
+*BFC*/
+.a {
+  background: blue;
+  float: left;
+  margin-right: 15px;
+  width: 300px;
+}
+
+.b {
+  background: red;  
+  display: inline-block;
+}
